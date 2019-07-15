@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component renders correctly when data is empty 1`] = `
+<section>
+  <img
+    src="/assets/logo.png"
+  />
+  <h1
+    className="MuiTypography-root-1 MuiTypography-display2-4"
+  >
+    App is Ready
+  </h1>
+  <p
+    className="MuiTypography-root-1 MuiTypography-body1-10"
+  >
+    Route example:
+  </p>
+  <p>
+    No data
+  </p>
+</section>
+`;
+
+exports[`Home component renders correctly when data is ready 1`] = `
+<section>
+  <img
+    src="/assets/logo.png"
+  />
+  <h1
+    className="MuiTypography-root-1 MuiTypography-display2-4"
+  >
+    App is Ready
+  </h1>
+  <p
+    className="MuiTypography-root-1 MuiTypography-body1-10"
+  >
+    Route example:
+  </p>
+  <div
+    className="MuiGrid-container-26 MuiGrid-spacing-xs-24-50 MuiGrid-justify-xs-center-43"
+  >
+    <div
+      className="MuiGrid-item-27 MuiGrid-grid-xs-12-66 MuiGrid-grid-sm-6-74 MuiGrid-grid-md-1-83"
+    />
+    <div
+      className="MuiGrid-item-27 MuiGrid-grid-xs-12-66 MuiGrid-grid-sm-6-74 MuiGrid-grid-md-1-83"
+    />
+    <div
+      className="MuiGrid-item-27 MuiGrid-grid-xs-12-66 MuiGrid-grid-sm-6-74 MuiGrid-grid-md-1-83"
+    />
+  </div>
+</section>
+`;
+
+exports[`Home component renders correctly when loading 1`] = `
+<h1
+  className="MuiTypography-root-1 MuiTypography-display2-4"
+>
+  Loading...
+</h1>
+`;
