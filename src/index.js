@@ -5,10 +5,14 @@ import 'typeface-roboto';
 import configureStore, { history } from './store/configureStore';
 import Root from './Root';
 import { createStore } from 'redux';
-import rootReducer from './reducers';
 require('./favicon.ico');
 
 const store = configureStore();
+
+// const store = createStore(
+//   rootReducer,
+//   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__() 
+// );
 
 render (
   <AppContainer>
